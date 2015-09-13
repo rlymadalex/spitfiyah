@@ -1,0 +1,95 @@
+World opened on network port 332.
+World opened on network port 332.
+World opened on network port 332.
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Downloads\Dragonball Rebirth(KENTO'S)\Dragonball Rebirth(KENTO'S)\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,557
+  usr: the lol (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Downloads\Dragonball Rebirth\Dragonball Rebirth(KENTO'S)\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,557
+  usr: Kooal (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Downloads\Dragonball Rebirth\Dragonball Rebirth(KENTO'S)\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,558
+  usr: RednaXXXela (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Downloads\Dragonball Rebirth\Dragonball Rebirth(KENTO'S)\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,564
+  usr: Testjin (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Downloads\Dragonball Rebirth\Dragonball Rebirth(KENTO'S)\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,564
+  usr: Testjin (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Downloads\Dragonball Rebirth\Dragonball Rebirth(KENTO'S)\Saves\Misc' outside of current directory.
+proc name: BootFile (/proc/BootFile)
+  source file: _World.dm,530
+  usr: null
+  src: null
+  call stack:
+BootFile("Misc", "Save")
+BootFile("All", "Save")
+BootWorld("Save")
+world: Del()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Downloads\Dragonball Rebirth\Dragonball Rebirth(KENTO'S)\Saves\PlayerLogs\RednaXXXela\Log1' outside of current directory.
+proc name: Log (/proc/Log)
+  source file: Admin.dm,127
+  usr: TestBuddy (/mob/Players)
+  src: null
+  call stack:
+Log("Saves/PlayerLogs/RednaXXXela/L...", "<font color=red>TestBuddy(Redn...")
+TestBuddy (/mob/Players): OMessage(15, "TestBuddy is knocked out by lo...", "<font color=red>TestBuddy(Redn...")
+TestBuddy (/mob/Players): Unconscious(null, "low health!")
+TestBuddy (/mob/Players): Stat()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Downloads\Dragonball Rebirth\Dragonball Rebirth(KENTO'S)\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,574
+  usr: TestBuddy (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Downloads\Dragonball Rebirth\Dragonball Rebirth(KENTO'S)\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,573
+  usr: Majin Alex (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Downloads\Dragonball Rebirth\Dragonball Rebirth(KENTO'S)\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,573
+  usr: LOLtest (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Downloads\Dragonball Rebirth\Dragonball Rebirth(KENTO'S)\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,581
+  usr: KAIOWAIO (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()

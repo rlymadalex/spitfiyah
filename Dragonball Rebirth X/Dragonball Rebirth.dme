@@ -1,0 +1,83 @@
+// DM Environment file for .dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "Icons"
+#define FILE_DIR "Icons/Armor"
+#define FILE_DIR "Icons/Aura"
+#define FILE_DIR "Icons/Beams"
+#define FILE_DIR "Icons/Blasts"
+#define FILE_DIR "Icons/Characters"
+#define FILE_DIR "Icons/Characters/Aliens"
+#define FILE_DIR "Icons/Characters/Androids"
+#define FILE_DIR "Icons/Characters/BioAndroid"
+#define FILE_DIR "Icons/Characters/Changlings"
+#define FILE_DIR "Icons/Characters/Demons"
+#define FILE_DIR "Icons/Characters/Makyo"
+#define FILE_DIR "Icons/Characters/Namek"
+#define FILE_DIR "Icons/Characters/Special"
+#define FILE_DIR "Icons/Characters/SpiritDoll"
+#define FILE_DIR "Icons/Clothes"
+#define FILE_DIR "Icons/Hair"
+#define FILE_DIR "Icons/NPCS"
+#define FILE_DIR "Icons/Other"
+#define FILE_DIR "Icons/Other/Effects"
+#define FILE_DIR "Icons/Technology"
+#define FILE_DIR "Icons/Turfs"
+#define FILE_DIR "IntIcons"
+#define FILE_DIR "Old Icons"
+#define FILE_DIR "Sounds"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "-Special.dm"
+#include "_-SkillSystems.dm"
+#include "_Dragonballs.dm"
+#include "_Extra.dm"
+#include "_Mate.dm"
+#include "_PathFind.dm"
+#include "_PlanetConquer.dm"
+#include "_PlanetDestruction.dm"
+#include "_Reports(Credits to SSX).dm"
+#include "_ShockWave.dm"
+#include "_Trans.dm"
+#include "_Variables.dm"
+#include "_World.dm"
+#include "Admin.dm"
+#include "Alliance.dm"
+#include "BattleSystem.dm"
+#include "BeastTransforms.dm"
+#include "Build.dm"
+#include "Chat&Verbs.dm"
+#include "Creation.dm"
+#include "Customization.dm"
+#include "Gains.dm"
+#include "Guides.dm"
+#include "Items_.dm"
+#include "Map.dm"
+#include "Misc.dm"
+#include "Mobs.dm"
+#include "Move.dm"
+#include "Notes.dm"
+#include "NPC.dm"
+#include "Packages.dm"
+#include "Projectiles.dm"
+#include "Security.dm"
+#include "Skills.dm"
+#include "Skills_.dm"
+#include "StatPointSystems.dm"
+#include "Stats.dm"
+#include "Tech.dm"
+#include "VotingSystem.dm"
+#include "Weather.dm"
+#include "Years.dm"
+#include "skin.dmf"
+#include "GameMap.dmm"
+// END_INCLUDE
