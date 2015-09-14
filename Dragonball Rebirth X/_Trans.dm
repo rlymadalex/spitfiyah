@@ -94,6 +94,7 @@ mob/proc/SetVars()
 			src.SCLForm_2='ChangelingFriezaForm2.dmi'
 			src.SCLForm_3='ChangelingFriezaForm3.dmi'
 			src.SCLForm_4='ChangelingFriezaForm4.dmi'
+			src.SCLForm_6='ChangelingFriezaForm6.dmi'
 			src.icon=src.SCLForm_1
 			src.scl["1req"]=10000
 			src.scl["1give"]=100000
@@ -104,6 +105,9 @@ mob/proc/SetVars()
 			src.scl["3req"]=10000000
 			src.scl["3give"]=0
 			src.scl["3multi"]=1.3
+			src.scl["5req"]=80000000
+			src.scl["5give"]=0
+			src.scl["5multi"]=12
 		else if(src.Class=="Cooler")
 			src.SCLForm_1='Cooler1.dmi'
 			SCLForm_2='Cooler2.dmi'
@@ -174,6 +178,7 @@ mob/proc/SCL(var/x)
 	if(x==2&&src.SCLForm_3)src.icon=src.SCLForm_3
 	if(x==3&&src.SCLForm_4)src.icon=src.SCLForm_4
 	if(x==4&&src.SCLForm_5)src.icon=src.SCLForm_5
+	if(x==5&&src.SCLForm_6)src.icon=src.SCLForm_6
 
 
 
@@ -361,12 +366,20 @@ mob/proc/Transform()
 					src.SCL(3)
 					scl["transing"]=0
 		else if(scl["active"]==3)
-			if(scl["unlocked"]>3)
-				if(!(scl["4req"]))return
+			if(Class=="Cooler")
+				if(scl["unlocked"]>3)
+					if(!(scl["4req"]))return
+					if(scl["3mastery"]<99)return
+					if(scl["4req"]<=src.Power)
+						scl["transing"]=1
+						src.SCL(4)
+						scl["transing"]=0
+			else if(scl["unlocked"]>3)
+				if(!(scl["5req"]))return
 				if(scl["3mastery"]<99)return
-				if(scl["4req"]<=src.Power)
+				if(scl["5req"]<src.Power)
 					scl["transing"]=1
-					src.SCL(4)
+					src.SCL(5)
 					scl["transing"]=0
 
 mob/proc/Revert()
@@ -382,6 +395,7 @@ mob/proc/Revert()
 		src.Hairz("Add")
 	if(src.Race=="Changling")
 		if(scl["active"]==0||scl["active"]==null)return
+		src.overlays-=image('Auras.dmi',"SCL")
 		while(scl["active"]>0)
 			src.PlusPower-=scl["[scl["active"]]give"]
 			src.Base/=scl["[scl["active"]]multi"]

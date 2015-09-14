@@ -2573,6 +2573,62 @@ window "Race_Screen"
 		macro = ""
 		menu = ""
 		on-close = ""
+	elem "PlanetDesc1"
+		type = LABEL
+		pos = 416,72
+		size = 208x144
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 8
+		font-style = ""
+		text-color = #6ac0ff
+		background-color = #1f1f1f
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		text = "Earth is a planet inhabited by humans, animals, plants, and other beings"
+		image = ""
+		image-mode = center
+		keep-aspect = false
+		align = center
+		text-wrap = true
+		allow-html = false
+		letterbox = true
+	elem "RaceDesc1"
+		type = LABEL
+		pos = 416,240
+		size = 216x88
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 8
+		font-style = ""
+		text-color = #6ac0ff
+		background-color = #000000
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		text = "Humans, sometimes referred to as just Earthlings, are the main inhabitants of the planet Earth."
+		image = ""
+		image-mode = center
+		keep-aspect = false
+		align = center
+		text-wrap = true
+		allow-html = false
+		letterbox = true
 	elem "label14"
 		type = LABEL
 		pos = 424,0
@@ -2603,8 +2659,8 @@ window "Race_Screen"
 		letterbox = true
 	elem "Planet4"
 		type = LABEL
-		pos = 312,376
-		size = 96x96
+		pos = 280,264
+		size = 80x64
 		anchor1 = 49,78
 		anchor2 = 64,98
 		font-family = ""
@@ -2659,7 +2715,7 @@ window "Race_Screen"
 		button-type = pushbutton
 	elem "button20"
 		type = BUTTON
-		pos = 376,208
+		pos = 312,208
 		size = 32x32
 		anchor1 = 59,43
 		anchor2 = 64,50
@@ -2687,8 +2743,8 @@ window "Race_Screen"
 		button-type = pushbutton
 	elem "Iconz"
 		type = LABEL
-		pos = 224,176
-		size = 150x100
+		pos = 144,160
+		size = 120x100
 		anchor1 = 35,37
 		anchor2 = 58,58
 		font-family = ""
@@ -2743,7 +2799,7 @@ window "Race_Screen"
 		button-type = pushbutton
 	elem "RaceName"
 		type = LABEL
-		pos = 248,280
+		pos = 152,280
 		size = 96x24
 		anchor1 = 39,58
 		anchor2 = 54,63
@@ -2771,7 +2827,7 @@ window "Race_Screen"
 		letterbox = true
 	elem "PlanetName"
 		type = LABEL
-		pos = 236,112
+		pos = 152,112
 		size = 108x32
 		anchor1 = 37,23
 		anchor2 = 54,30
@@ -2799,7 +2855,7 @@ window "Race_Screen"
 		letterbox = true
 	elem "Button3"
 		type = BUTTON
-		pos = 192,208
+		pos = 56,208
 		size = 32x32
 		anchor1 = 30,43
 		anchor2 = 35,50
@@ -2827,7 +2883,7 @@ window "Race_Screen"
 		button-type = pushbutton
 	elem "button1"
 		type = BUTTON
-		pos = 440,48
+		pos = 276,56
 		size = 108x48
 		anchor1 = 69,10
 		anchor2 = 86,20
@@ -2855,7 +2911,7 @@ window "Race_Screen"
 		button-type = pushbutton
 	elem "Button1"
 		type = BUTTON
-		pos = 68,48
+		pos = 12,56
 		size = 108x48
 		anchor1 = 11,10
 		anchor2 = 28,20
@@ -2881,38 +2937,10 @@ window "Race_Screen"
 		is-checked = false
 		group = ""
 		button-type = pushbutton
-	elem "Planet3"
-		type = LABEL
-		pos = 408,264
-		size = 96x96
-		anchor1 = 64,55
-		anchor2 = 79,75
-		font-family = ""
-		font-size = 0
-		font-style = ""
-		text-color = #000000
-		background-color = #000000
-		is-visible = true
-		is-disabled = false
-		is-transparent = false
-		is-default = false
-		border = none
-		drop-zone = false
-		right-click = false
-		saved-params = ""
-		on-size = ""
-		text = ""
-		image = ""
-		image-mode = center
-		keep-aspect = false
-		align = center
-		text-wrap = false
-		allow-html = false
-		letterbox = true
 	elem "Planet2"
 		type = LABEL
-		pos = 440,120
-		size = 96x96
+		pos = 304,120
+		size = 80x64
 		anchor1 = 69,25
 		anchor2 = 84,45
 		font-family = ""
@@ -2939,8 +2967,8 @@ window "Race_Screen"
 		letterbox = true
 	elem "Planet1"
 		type = LABEL
-		pos = 240,8
-		size = 96x96
+		pos = 160,32
+		size = 80x64
 		anchor1 = 38,2
 		anchor2 = 53,22
 		font-family = ""
@@ -2967,8 +2995,8 @@ window "Race_Screen"
 		letterbox = true
 	elem "Planet7"
 		type = LABEL
-		pos = 64,120
-		size = 96x96
+		pos = 24,120
+		size = 80x64
 		anchor1 = 10,25
 		anchor2 = 25,45
 		font-family = ""
@@ -2995,8 +3023,8 @@ window "Race_Screen"
 		letterbox = true
 	elem "Planet6"
 		type = LABEL
-		pos = 88,264
-		size = 96x96
+		pos = 40,272
+		size = 80x64
 		anchor1 = 14,55
 		anchor2 = 29,75
 		font-family = ""
@@ -3023,8 +3051,8 @@ window "Race_Screen"
 		letterbox = true
 	elem "Planet5"
 		type = LABEL
-		pos = 176,376
-		size = 96x96
+		pos = 160,328
+		size = 80x64
 		anchor1 = 28,78
 		anchor2 = 43,98
 		font-family = ""

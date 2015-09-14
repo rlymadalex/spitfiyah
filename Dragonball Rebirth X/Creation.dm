@@ -505,25 +505,26 @@ mob/proc/UpdateRaceScreen(var/wut,var/amountz)
 	else if(src.Race=="Majin")
 		winset(usr,"Iconz","image=['i_Majin.gif']")
 
-	var/list/L = list("Planet1"=1,"Planet2"=2,"Planet3"=3,"Planet4"=4,"Planet5"=5,"Planet6"=6,"Planet7"=7)
-	for(var/x in L)
-		L[x]+=Plan-1
-		if(L[x]>7)
-			L[x]-=7
-		if(L[x]==1)
-			winset(src,"[x]","image=['i_Earth.png']")
-		if(L[x]==2)
-			winset(src,"[x]","image=['i_Namek.png']")
-		if(L[x]==3)
-			winset(src,"[x]","image=['i_Vegeta.png']")
-		if(L[x]==4)
-			winset(src,"[x]","image=['i_Afterlife.png']")
-		if(L[x]==5)
-			winset(src,"[x]","image=['i_Arconia.png']")
-		if(L[x]==6)
-			winset(src,"[x]","image=['i_Android.png']")
-		if(L[x]==7)
-			winset(src,"[x]","image=['i_Ice.png']")
+//CODE FOR LOGIN SCREEN - PROBABLY VERY WRONG
+	//var/list/L = list("Planet1"=1,"Planet2"=2,"Planet3"=3,"Planet4"=4,"Planet5"=5,"Planet6"=6,"Planet7"=7)
+	//for(var/x in R)
+	//	L[x]+=Plan-1
+	//	if(L[x]>7)
+	//		L[x]-=7
+	//	if(L[x]==1)
+	//		winset(src,"[x]","image=['i_Earth.png']")
+	//	if(L[x]==2)
+	//		winset(src,"[x]","image=['i_Namek.png']")
+	//	if(L[x]==3)
+	//		winset(src,"[x]","image=['i_Vegeta.png']")
+	//	if(L[x]==4)
+	//		winset(src,"[x]","image=['i_Afterlife.png']")
+	//	if(L[x]==5)
+	//		winset(src,"[x]","image=['i_Arconia.png']")
+	//	if(L[x]==6)
+	//		winset(src,"[x]","image=['i_Android.png']")
+	//	if(L[x]==7)
+	//		winset(src,"[x]","image=['i_Ice.png']")
 
 
 obj/Login

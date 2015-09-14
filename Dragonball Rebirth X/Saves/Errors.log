@@ -265,3 +265,751 @@ proc name: Damage (/obj/Projectiles/Mystical/proc/Damage)
 Mystical (/obj/Projectiles/Mystical): Damage(null, 5.80338e+008)
 Mystical (/obj/Projectiles/Mystical): Bump(null)
 Mystical (/obj/Projectiles/Mystical): AttackDamage()
+runtime error: Safety violation: tried to access 'C:\Users\ADecastro\Documents\GitHub\spitfiyah\Dragonball Rebirth X\Saves\ReportFile' outside of current directory.
+proc name: Reports (/proc/Reports)
+  source file: _Reports(Credits to SSX).dm,6
+  usr: null
+  src: null
+  call stack:
+Reports("Load")
+BootWorld("Load")
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\ADecastro\Documents\GitHub\spitfiyah\Dragonball Rebirth X\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,590
+  usr: De (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()
+runtime error: Safety violation: tried to access 'C:\Users\ADecastro\Documents\GitHub\spitfiyah\Dragonball Rebirth X\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,590
+  usr: Nope (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Tester (/mob/Players)
+  src: Tester (/mob/Players)
+  call stack:
+Tester (/mob/Players): Revert()
+Tester (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 1.794e+010 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Division by zero
+proc name: GainLoop (/mob/proc/GainLoop)
+  source file: Gains.dm,407
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): GainLoop()
+Trollzer (/mob/Players): Login()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,400
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Division by zero
+proc name: GainLoop (/mob/proc/GainLoop)
+  source file: Gains.dm,407
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): GainLoop()
+Trollzer (/mob/Players): Login()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Safety violation: tried to access 'C:\Users\ADecastro\Documents\GitHub\spitfiyah\Dragonball Rebirth X\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,590
+  usr: the rcsfc (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()
+runtime error: Division by zero
+proc name: GainLoop (/mob/proc/GainLoop)
+  source file: Gains.dm,407
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): GainLoop()
+Trollzer (/mob/Players): Login()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 7.77581e+011 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: Trollzer (/mob/Players)
+  src: Trollzer (/mob/Players)
+  call stack:
+Trollzer (/mob/Players): Revert()
+Trollzer (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 5.04242e+007 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: the fvsfsf (/mob/Players)
+  src: the fvsfsf (/mob/Players)
+  call stack:
+the fvsfsf (/mob/Players): Revert()
+the fvsfsf (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 5.04242e+007 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: the fvsfsf (/mob/Players)
+  src: the fvsfsf (/mob/Players)
+  call stack:
+the fvsfsf (/mob/Players): Revert()
+the fvsfsf (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Division by zero
+proc name: GainLoop (/mob/proc/GainLoop)
+  source file: Gains.dm,407
+  usr: the fvsfsf (/mob/Players)
+  src: the fvsfsf (/mob/Players)
+  call stack:
+the fvsfsf (/mob/Players): GainLoop()
+the fvsfsf (/mob/Players): Login()
+runtime error: Undefined operation: 5.04242e+007 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: the fvsfsf (/mob/Players)
+  src: the fvsfsf (/mob/Players)
+  call stack:
+the fvsfsf (/mob/Players): Revert()
+the fvsfsf (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 5.04242e+007 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: the fvsfsf (/mob/Players)
+  src: the fvsfsf (/mob/Players)
+  call stack:
+the fvsfsf (/mob/Players): Revert()
+the fvsfsf (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 5.04242e+007 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: the fvsfsf (/mob/Players)
+  src: the fvsfsf (/mob/Players)
+  call stack:
+the fvsfsf (/mob/Players): Revert()
+the fvsfsf (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Undefined operation: 5.04242e+007 /= null
+proc name: Revert (/mob/proc/Revert)
+  source file: _Trans.dm,401
+  usr: the fvsfsf (/mob/Players)
+  src: the fvsfsf (/mob/Players)
+  call stack:
+the fvsfsf (/mob/Players): Revert()
+the fvsfsf (/mob/Players): SkillX("PowerDown", PowerControl (/obj/Skills/PowerControl), 0)
+PowerControl (/obj/Skills/PowerControl): Power Down()
+runtime error: Division by zero
+proc name: GainLoop (/mob/proc/GainLoop)
+  source file: Gains.dm,407
+  usr: the fvsfsf (/mob/Players)
+  src: the fvsfsf (/mob/Players)
+  call stack:
+the fvsfsf (/mob/Players): GainLoop()
+the fvsfsf (/mob/Players): Login()

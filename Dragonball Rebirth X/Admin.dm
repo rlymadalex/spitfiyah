@@ -436,7 +436,7 @@ mob/Admin2/verb
 		set category="Admin"
 		if(M.client)
 			var/blah=input("Unlock to what form?") as num
-			if(M.Race=="Saiyan"||M.Race=="Saiyan")
+			if(M.Race=="Saiyan"||M.Race=="Half Saiyan")
 				if(!(blah>=0&&blah<4))return
 				M.ssj["unlocked"]=blah
 			if(M.Race=="Changling")
@@ -447,7 +447,7 @@ mob/Admin2/verb
 					if("Cooler")
 						if(blah>4)return
 					if("Frieza")
-						if(blah>3)return
+						if(blah>4)return
 				M.scl["unlocked"]=blah
 			Log("Admin","[ExtractInfo(usr)] unlocked [ExtractInfo(M)] 's form([blah])")
 	SendToSpawnz(mob/A in world)
@@ -613,7 +613,7 @@ mob/Admin2/verb
 				P.Rewarded="[TimeStamp()]"
 				Log("Admin","[ExtractInfo(usr)] rewarded [ExtractInfo(P)] statpoints from [OldBase] to [P.RewardPoints]")
 		if(option=="Form Mastery")
-			var/option2=input("Which form?") in list ("SSj1", "SSj2", "SSj3")
+			var/option2=input("Which form?") in list ("SSj1", "SSj2", "SSj3", "SCL1","SCL2","SCL3","SCL4","SCL5")
 			if(option2=="SSj1")
 				var/amount=input("Master to what extent?") as num
 				ssj["1mastery"] = amount
@@ -623,6 +623,21 @@ mob/Admin2/verb
 			if(option2=="SSj3")
 				var/amount=input("Master to what extent?") as num
 				ssj["3mastery"] = amount
+			if(option2=="SCL1")
+				var/amount=input("Master to what extent?") as num
+				scl["1mastery"] = amount
+			if(option2=="SCL2")
+				var/amount=input("Master to what extent?") as num
+				scl["2mastery"] = amount
+			if(option2=="SCL3")
+				var/amount=input("Master to what extent?") as num
+				scl["3mastery"] = amount
+			if(option2=="SCL4")
+				var/amount=input("Master to what extent?") as num
+				scl["4mastery"] = amount
+			if(option2=="SCL5")
+				var/amount=input("Master to what extent?") as num
+				scl["5mastery"] = amount
 
 
 mob/Admin3/verb

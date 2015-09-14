@@ -60,19 +60,21 @@ mob/proc/GetAssess()
 			blahh+={"<font color=#FFFF00>Super Saiyan at: [Commas(src.ssj["1req"])]<br>Super Saiyan 2 at: [Commas(src.ssj["2req"])]<br>Super Saiyan 3 at: [Commas(src.ssj["3req"])]"}
 	if(src.Race=="Changling")
 		if(src.ssj["1req"])
-			blahh+={"<font color=#CC99FF>Super Changling 1 at: [Commas(src.scl["1req"])]"}
+			blahh+={"<font color=#CC99FF>Second Form at: [Commas(src.scl["1req"])]"}
 		if(src.ssj["2req"])
-			blahh+={"<br><font color=#CC99FF>Super Changling 2 at: [Commas(src.scl["2req"])]"}
+			blahh+={"<br><font color=#CC99FF>Third Form at: [Commas(src.scl["2req"])]"}
 		if(src.ssj["3req"])
-			blahh+={"<br><font color=#CC99FF>Super Changling 3 at: [Commas(src.scl["3req"])]"}
+			blahh+={"<br><font color=#CC99FF>Fourth Form at: [Commas(src.scl["3req"])]"}
 		if(src.ssj["4req"])
-			blahh+={"<br><font color=#CC99FF>Super Changling 4 at: [Commas(src.scl["4req"])]"}
-	//	<font color=#FFFF00>Super Saiyan at: 1'500'000<br>Super Saiyan 2 at: 200'000'000<br>Super Saiyan 3 at: 550'000'000
+			blahh+={"<br><font color=#CC99FF>Super Changling at: [Commas(src.scl["4req"])]"}
+		if(src.ssj["5req"])
+			blahh+={"<br><font color=#CC99FF>Golden Form at: [Commas(src.scl["5req"])]"}
+	//<font color=#FFFF00>Super Saiyan at: 1'500'000<br>Super Saiyan 2 at: 200'000'000<br>Super Saiyan 3 at: 550'000'000
 
 	if(src.Race=="Human")
-		blahh+={"<font color=#FFFF00>Third Eye at: [Commas(src.ThirdEyeReq)]"}
+		blahh+={"Third Eye at: [Commas(src.ThirdEyeReq)]"}
 	if(src.Race=="Demi")
-		blahh+={"<font color=#FFFF00>Olympian Fury at: [Commas(src.OFReq)]"}
+		blahh+={"Olympian Fury at: [Commas(src.OFReq)]"}
 	return blahh
 
 obj/Package

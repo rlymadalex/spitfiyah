@@ -286,7 +286,7 @@ mob/proc/GetPowerUpRatio()
 mob/proc/Recover(var/blah,Amount=1)
 	switch(blah)
 		if("Health")
-			if(Health<100&&!KO&&!Transfering)
+			if(Health<100&&!KO&&!Transfering&&icon_state!="Train"&&icon_state!="Flight"&&icon_state!=""&&icon_state!="KB"&&icon_state!="Attack"&&icon_state!="Blast"&&icon_state!="KO")
 				if(Health<=10) Amount/=20
 				Health+=0.334*Regeneration*Amount*ControlRegen //5 minutes if 1 regeneration
 				if(Health>100) Health=100
