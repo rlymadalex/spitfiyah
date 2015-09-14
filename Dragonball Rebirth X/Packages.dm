@@ -67,9 +67,13 @@ mob/proc/GetAssess()
 			blahh+={"<br><font color=#CC99FF>Super Changling 3 at: [Commas(src.scl["3req"])]"}
 		if(src.ssj["4req"])
 			blahh+={"<br><font color=#CC99FF>Super Changling 4 at: [Commas(src.scl["4req"])]"}
-	return blahh
 	//	<font color=#FFFF00>Super Saiyan at: 1'500'000<br>Super Saiyan 2 at: 200'000'000<br>Super Saiyan 3 at: 550'000'000
 
+	if(src.Race=="Human")
+		blahh+={"<font color=#FFFF00>Third Eye at: [Commas(src.ThirdEyeReq)]"}
+	if(src.Race=="Demi")
+		blahh+={"<font color=#FFFF00>Olympian Fury at: [Commas(src.OFReq)]"}
+	return blahh
 
 obj/Package
 	Crandal

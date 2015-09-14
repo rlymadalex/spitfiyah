@@ -74,6 +74,7 @@ mob/proc/SetVars()
 			src.ssj["3req"]=600000000
 			src.ssj["3give"]=0
 			src.ssj["3multi"]=1.65
+
 		else if(src.Class=="Hellspawn")
 			src.ssj["1req"]=1500000
 			src.ssj["1give"]=15000000

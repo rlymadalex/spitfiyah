@@ -34,11 +34,23 @@ mob/proc/LOLWUT()
 				src.contents+=new/obj/Child/Mate
 				src<<"You can have babies now!"
 	if(src.Race=="Human")//Third Eye
-		if(src.ThirdEyeReq)
+		if(src.Class=="Uchiha")
 			if(src.Base>=ThirdEyeReq/20)
-				if(!locate(/obj/Skills/Buffs/ThirdEye,src.contents))
-					src.contents+=new/obj/Skills/Buffs/ThirdEye
-					src<<"You unlocked the ability to use the legendary Third Eye technique!"
+				if(!locate(/obj/Skills/Buffs/Sharingan,src.contents))
+					src.contents+=new/obj/Skills/Buffs/Sharingan
+					src<<"Your Sharingan eyes awaken!"
+		else
+			if(src.ThirdEyeReq)
+				if(src.Base>=ThirdEyeReq/20)
+					if(!locate(/obj/Skills/Buffs/ThirdEye,src.contents))
+						src.contents+=new/obj/Skills/Buffs/ThirdEye
+						src<<"You unlocked the ability to use the legendary Third Eye technique!"
+	if(src.Race=="Demi")//Olympian Fury
+		if(src.OFReq)
+			if(src.Base>=OFReq/20)
+				if(!locate(/obj/Skills/Buffs/OlympianFury,src.contents))
+					src.contents+=new/obj/Skills/Buffs/OlympianFury
+					src<<"You unlocked the ability to unleash your Olympian Fury!"
 	if(src.IntelligenceLevel>=30)
 		if(!locate(/obj/Cyberize,src.contents))
 			src.contents+=new/obj/Cyberize
@@ -75,7 +87,7 @@ mob/proc/LOLWUT()
 				src<<"<i>Your demonic nature has fully manifested.</i>"
 
 	if(src.Race=="Kaio")//DivineBlessing
-		if(src.EnergyMax>15000)
+		if(src.EnergyMax>5000)
 			if(!locate(/obj/Skills/Buffs/DivineBlessing,src.contents))
 				src.contents+=new/obj/Skills/Buffs/DivineBlessing
 				src<<"<i>The Blessing of the gods descend upon you...</i>"
@@ -96,11 +108,6 @@ mob/proc/LOLWUT()
 					if(!locate(/obj/Skills/Attacks/Charge,src.contents))
 						src.contents+=new/obj/Skills/Attacks/Charge
 						src<<"<i>Due to your immense energy...you learn Charge on your own.</i>"
-					if(src.EnergyMax>3500)
-						if(src.Race in list("Namekian","Spirit Doll","Demon","Human","Alien"))
-							if(!locate(/obj/Skills/Telepathy,src.contents))
-								src.contents+=new/obj/Skills/Telepathy
-								src<<"<i>Due to your immense energy...you learn how to communicate with others Telepathically.</i>"
 						if(src.EnergyMax>10000)
 							if(!locate(/obj/Skills/PowerControl,src.contents))
 								src.contents+=new/obj/Skills/PowerControl

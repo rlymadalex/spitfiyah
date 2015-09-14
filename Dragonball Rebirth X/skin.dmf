@@ -320,7 +320,7 @@ window "Baby"
 		link-color = #0000ff
 		visited-color = #ff00ff
 		line-color = #c0c0c0
-		highlight-color = none
+		highlight-color = #000000
 		style = ""
 		is-list = false
 
@@ -3220,7 +3220,7 @@ window "Grid1"
 		link-color = #ff80ff
 		visited-color = #ff00ff
 		line-color = #c0c0c0
-		highlight-color = none
+		highlight-color = #000000
 		style = ""
 		is-list = false
 
@@ -3349,7 +3349,7 @@ window "Grid2"
 		link-color = #ff80ff
 		visited-color = #ff00ff
 		line-color = #c0c0c0
-		highlight-color = none
+		highlight-color = #000000
 		style = ""
 		is-list = false
 
@@ -3393,34 +3393,34 @@ window "Finalize_Screen"
 		macro = ""
 		menu = ""
 		on-close = ""
-	elem "label16"
-		type = LABEL
-		pos = 64,64
-		size = 60x20
+	elem "GoBack"
+		type = BUTTON
+		pos = 488,408
+		size = 120x24
 		anchor1 = none
 		anchor2 = none
-		font-family = ""
-		font-size = 0
-		font-style = ""
-		text-color = #000000
-		background-color = none
+		font-family = "Papyrus"
+		font-size = 15
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #1d1d1d
 		is-visible = true
 		is-disabled = false
 		is-transparent = false
 		is-default = false
-		border = none
+		border = line
 		drop-zone = false
 		right-click = false
-		saved-params = ""
+		saved-params = "is-checked"
 		on-size = ""
-		text = ""
+		text = "Back"
 		image = ""
-		image-mode = center
-		keep-aspect = false
-		align = center
-		text-wrap = false
-		allow-html = false
-		letterbox = true
+		command = "Prev_Step"
+		is-flat = false
+		stretch = false
+		is-checked = false
+		group = ""
+		button-type = pushbutton
 	elem "label13"
 		type = LABEL
 		pos = 0,408
@@ -5181,7 +5181,7 @@ window "Finalize_Screen"
 		right-click = false
 		saved-params = ""
 		on-size = ""
-		text = "Lean"
+		text = "Medium"
 		image = ""
 		image-mode = tile
 		keep-aspect = false
@@ -5293,7 +5293,7 @@ window "Finalize_Screen"
 		right-click = false
 		saved-params = ""
 		on-size = ""
-		text = "Luke"
+		text = "Alex"
 		image = ""
 		image-mode = tile
 		keep-aspect = false

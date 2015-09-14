@@ -93,3 +93,175 @@ proc name: SaveChar (/client/proc/SaveChar)
   call stack:
 RednaXXXela (/client): SaveChar()
 RednaXXXela (/client): Del()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Documents\GitHub\spitfiyah\Dragonball Rebirth X\Saves\Planets' outside of current directory.
+proc name: BootFile (/proc/BootFile)
+  source file: _World.dm,479
+  usr: null
+  src: null
+  call stack:
+BootFile("Planets", "Load")
+BootFile("All", "Load")
+BootWorld("Load")
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Documents\GitHub\spitfiyah\Dragonball Rebirth X\Saves\Admins' outside of current directory.
+proc name: BootFile (/proc/BootFile)
+  source file: _World.dm,470
+  usr: null
+  src: null
+  call stack:
+BootFile("Admins", "Load")
+BootFile("All", "Load")
+BootWorld("Load")
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Documents\GitHub\spitfiyah\Dragonball Rebirth X\Saves\Misc' outside of current directory.
+proc name: BootFile (/proc/BootFile)
+  source file: _World.dm,501
+  usr: null
+  src: null
+  call stack:
+BootFile("Misc", "Load")
+BootFile("All", "Load")
+BootWorld("Load")
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Documents\GitHub\spitfiyah\Dragonball Rebirth X\Saves\Punishment' outside of current directory.
+proc name: BootFile (/proc/BootFile)
+  source file: _World.dm,566
+  usr: null
+  src: null
+  call stack:
+BootFile("Bans", "Load")
+BootFile("All", "Load")
+BootWorld("Load")
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Documents\GitHub\spitfiyah\Dragonball Rebirth X\Saves\Alliance' outside of current directory.
+proc name: BootFile (/proc/BootFile)
+  source file: _World.dm,491
+  usr: null
+  src: null
+  call stack:
+BootFile("Alliance", "Load")
+BootFile("All", "Load")
+BootWorld("Load")
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Documents\GitHub\spitfiyah\Dragonball Rebirth X\Saves\Map\File1' outside of current directory.
+proc name: Load Turfs (/proc/Load_Turfs)
+  source file: Build.dm,59
+  usr: null
+  src: null
+  call stack:
+Load Turfs()
+BootWorld("Load")
+world: New()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Documents\GitHub\spitfiyah\Dragonball Rebirth X\Saves\Itemsave' outside of current directory.
+proc name: Load Objects (/proc/Load_Objects)
+  source file: Build.dm,215
+  usr: null
+  src: null
+  call stack:
+Load Objects()
+BootWorld("Load")
+world: New()
+BYOND Error:(Sfile.cpp,1138) failed to open file:
+BYOND Error:(Sfile.cpp,1138) E¡·^
+proc name: BootFile (/proc/BootFile)
+  source file: _World.dm,486
+  usr: null
+  src: null
+  call stack:
+BootFile("Planets", "Save")
+BootFile("All", "Save")
+BootWorld("Save")
+world: Del()
+runtime error: Cannot execute null.Find().
+proc name: SpawnMaterial (/proc/SpawnMaterial)
+  source file: _World.dm,48
+  usr: null
+  src: null
+  call stack:
+SpawnMaterial()
+Load Turfs()
+runtime error: Cannot execute null.Find().
+proc name: CheckIfDestroyed (/mob/proc/CheckIfDestroyed)
+  source file: Creation.dm,292
+  usr: RednaXXXela (/mob/Creation)
+  src: RednaXXXela (/mob/Creation)
+  call stack:
+RednaXXXela (/mob/Creation): CheckIfDestroyed("Earth", "+")
+RednaXXXela (/mob/Creation): UpdateRaceScreen(null, "+")
+Dragonball Rebirth (/obj/Login/Newz): Click(Black (14,9,13) (/turf/Special/Black), "mapwindow.map", "icon-x=13;icon-y=13;left=1;scr...")
+runtime error: Cannot execute null.Find().
+proc name: CheckIfDestroyed (/mob/proc/CheckIfDestroyed)
+  source file: Creation.dm,292
+  usr: RednaXXXela (/mob/Creation)
+  src: RednaXXXela (/mob/Creation)
+  call stack:
+RednaXXXela (/mob/Creation): CheckIfDestroyed("Namek", "+")
+RednaXXXela (/mob/Creation): UpdateRaceScreen("Planet", "+")
+RednaXXXela (/mob/Creation): .PlanetShift("+")
+runtime error: Cannot execute null.Find().
+proc name: CheckIfDestroyed (/mob/proc/CheckIfDestroyed)
+  source file: Creation.dm,292
+  usr: RednaXXXela (/mob/Creation)
+  src: RednaXXXela (/mob/Creation)
+  call stack:
+RednaXXXela (/mob/Creation): CheckIfDestroyed("Earth", "-")
+RednaXXXela (/mob/Creation): UpdateRaceScreen("Planet", "-")
+RednaXXXela (/mob/Creation): .PlanetShift("-")
+runtime error: Cannot execute null.Find().
+proc name: CheckIfDestroyed (/mob/proc/CheckIfDestroyed)
+  source file: Creation.dm,292
+  usr: RednaXXXela (/mob/Creation)
+  src: RednaXXXela (/mob/Creation)
+  call stack:
+RednaXXXela (/mob/Creation): CheckIfDestroyed("Namek", "+")
+RednaXXXela (/mob/Creation): UpdateRaceScreen("Planet", "+")
+RednaXXXela (/mob/Creation): .PlanetShift("+")
+runtime error: Cannot execute null.Find().
+proc name: CheckIfDestroyed (/mob/proc/CheckIfDestroyed)
+  source file: Creation.dm,292
+  usr: RednaXXXela (/mob/Creation)
+  src: RednaXXXela (/mob/Creation)
+  call stack:
+RednaXXXela (/mob/Creation): CheckIfDestroyed("Vegeta", "+")
+RednaXXXela (/mob/Creation): UpdateRaceScreen("Planet", "+")
+RednaXXXela (/mob/Creation): .PlanetShift("+")
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Documents\GitHub\spitfiyah\Dragonball Rebirth X\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,590
+  usr: Achilles (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Documents\GitHub\spitfiyah\Dragonball Rebirth X\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,590
+  usr: Test (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()
+runtime error: Safety violation: tried to access 'C:\Users\Charlie-Ann\Documents\GitHub\spitfiyah\Dragonball Rebirth X\Saves\Players\rednaxxxela' outside of current directory.
+proc name: SaveChar (/client/proc/SaveChar)
+  source file: Creation.dm,590
+  usr: Testjin (/mob/Players)
+  src: RednaXXXela (/client)
+  call stack:
+RednaXXXela (/client): SaveChar()
+RednaXXXela (/client): Del()
+runtime error: Cannot read null.address
+proc name: Ban (/mob/Admin2/verb/Ban)
+  source file: Admin.dm,486
+  usr: the lol (/mob/Players)
+  src: the lol (/mob/Players)
+  call stack:
+the lol (/mob/Players): Ban(Sheep (/mob/Animals/Peaceful/Sheep))
+runtime error: Cannot read null.Power
+proc name: Damage (/obj/Projectiles/Mystical/proc/Damage)
+  source file: Projectiles.dm,53
+  usr: 0
+  src: Mystical (/obj/Projectiles/Mystical)
+  call stack:
+Mystical (/obj/Projectiles/Mystical): Damage(null, 5.80338e+008)
+Mystical (/obj/Projectiles/Mystical): Bump(null)
+Mystical (/obj/Projectiles/Mystical): AttackDamage()

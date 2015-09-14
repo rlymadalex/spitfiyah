@@ -27,6 +27,7 @@ mob/var
 	tmp/Observing=0
 	tmp/SaveDelay
 	ThirdEyeReq=0
+	OFReq=0
 	Gender
 	DisplayKey
 	StrFocus="Balanced"

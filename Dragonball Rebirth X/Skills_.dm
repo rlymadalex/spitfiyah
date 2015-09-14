@@ -542,6 +542,31 @@ mob/proc/SkillX(var/Wut,var/obj/Skills/Z,var/bypass=0)
 						src.Energy=1
 						A.Dead=0
 						A.overlays-='Halo.dmi'
+			if("Ressurect")
+				if(src.KO)return
+				if(!src.Dead)
+					if(Z:LastTime)
+						if(Year<Z:LastTime+1)
+							src<<"You cannot use this until year [Z:LastTime+1]."
+							return
+					var/list/PeopleX=new
+					for(var/mob/Players/M in get_step(src,dir))
+						if(M.Dead)
+							PeopleX+=M
+					var/mob/A=input(src,"Revive who?") in PeopleX||null
+					if(A)
+						Z:LastTime=Year
+						src.OMessage(10,"[A] was ressurected by [src]'s Outer Path!","<font color=red>[src]([src.key]) revived [A]([A.key])")
+						src.Energy=1
+						src.Health/=4
+						A.Dead=0
+						A.overlays-='Halo.dmi'
+			if("Condemn")
+				if(!Z.Using)
+					Z.Using=1
+					usr.OMessage(20,"[usr] opens a portal to the Dead Zone using the Naraka Path!!","[usr]([usr.key]) opened the deadzone.")
+					new/obj/Effects/DeadZone(locate(usr.x,usr.y+4,usr.z))
+					spawn(300) Z.Using=0
 			if("UnBind")
 				if(Z:LastTime)
 					if(Year<Z:LastTime+1)
@@ -620,12 +645,22 @@ mob/proc/SkillX(var/Wut,var/obj/Skills/Z,var/bypass=0)
 				if(A)
 					src.OMessage(10,"[A] was Majinized by [src]..","<font color=red>[src]([src.key]) Majinized [A]([A.key])")
 					A.contents+=new/obj/Skills/Buffs/Majin
+			if("CurseEyes")
+				var/list/PeopleX=new
+				for(var/mob/M in get_step(src,dir))
+					if(!locate(/obj/Skills/Buffs/Sharingan,M.contents))
+						PeopleX+=M
+				var/mob/A=input(src,"Curse the eyes of whom?") in PeopleX||null
+				if(A)
+					src.OMessage(10,"[A]'s eyes were cursed by [src]..","<font color=red>[src]([src.key]) cursed [A]([A.key])'s eyes.")
+					A.contents+=new/obj/Skills/Buffs/Sharingan
 			if("MakeAmulet")
 				if(src.Energy>src.EnergyMax/10)
 					var/obj/A=new/obj/Items/Amulet
 					src.contents+=A
 					src.OMessage(10,"[src] made an Amulet.","<font color=red>[src]([src.key]) made an Amulet.")
 					src.Energy-=src.EnergyMax/10
+
 			if("ThirdEye")
 				if(!Z.Using)
 					src.see_invisible=1
@@ -635,7 +670,7 @@ mob/proc/SkillX(var/Wut,var/obj/Skills/Z,var/bypass=0)
 					src.BaseMod*=1.2
 					src.Base*=1.2
 					src.overlays+='Third Eye.dmi'
-					src.OMessage(10,"[src] concentrates on the power of their mind and unlock their third eye power.","<font color=red>[src]([src.key]) activated Third-Eye.")
+					src.OMessage(10,"[src] concentrates the power of their mind and unlocks their Third Eye.","<font color=red>[src]([src.key]) activated Third-Eye.")
 					Z.Using=1
 				else
 					src.AngerMax*=1.3
@@ -644,9 +679,54 @@ mob/proc/SkillX(var/Wut,var/obj/Skills/Z,var/bypass=0)
 					src.BaseMod/=1.2
 					src.Base/=1.2
 					src.overlays-='Third Eye.dmi'
-					src.OMessage(10,"[src] represses the power of their third eye.","<font color=red>[src]([src.key]) deactivated Third-Eye.")
+					src.OMessage(10,"[src] represses the power of their Third Eye.","<font color=red>[src]([src.key]) deactivated Third-Eye.")
 					Z.Using=0
 				sleep(10)
+
+			if("Sharingan")
+				if(!Z.Using)
+					src.see_invisible=1
+					src.BaseMod*=1.3
+					src.Base*=1.3
+					src.Offense*=1.3
+					src.OffenseMod*=1.3
+					src.Defense*=1.3
+					src.DefenseMod*=1.3
+					src.overlays+='Sharingan.dmi'
+					src.OMessage(10,"[src]'s pupils dilate and turn red as they activate their Sharingan!")
+					Z.Using=1
+				else
+					src.see_invisible=0
+					src.BaseMod/=1.3
+					src.Base/=1.3
+					src.Offense/=1.3
+					src.OffenseMod/=1.3
+					src.Defense/=1.3
+					src.DefenseMod/=1.3
+					src.overlays-='Sharingan.dmi'
+					src.OMessage(10,"[src]'s pupils revert as they deactivate their Sharingan.")
+					Z.Using=0
+				sleep(10)
+
+			if("Rinnegan")//Give Ressurect, AlmightyPush, KeepBody, Condemn
+				if(!Z.Using)
+					src.see_invisible=1
+					src.BaseMod*=1.5
+					src.Base*=1.5
+					src.Energy*=1.5
+					src.EnergyMax*=1.5
+					src.overlays+='Rinnegan.dmi'
+					src.OMessage(10,"[src]'s pupils spiral as their Rinnegan activates!")
+					Z.Using=1
+				else
+					src.see_invisible=0
+					src.BaseMod/=1.5
+					src.Base/=1.5
+					src.EnergyMax/=1.5
+					src.overlays-='Rinnegan.dmi'
+					src.OMessage(10,"[src]'s pupils fade to their normal state as their Rinnegan recedes.")
+					Z.Using=0
+
 			if("Focus")
 				if(!Z.Using)
 					if(src.Energy<src.EnergyMax/10)return
@@ -769,6 +849,34 @@ mob/proc/SkillX(var/Wut,var/obj/Skills/Z,var/bypass=0)
 					src.overlays-=image(icon='Auras.dmi',icon_state="Majin")
 					Z.Using=0
 				sleep(20)
+			if("OlympianFury")
+				if(!Z.Using)
+					Z.Using=1
+					src.see_invisible=1
+					src.Strength*=2
+					src.StrengthMod*=2
+					src.Speed*=1.5
+					src.SpeedMod*=1.5
+					src.Defense*=1.2
+					src.DefenseMod*=1.2
+					src.BaseMod*=2
+					src.Base*=2
+					src.overlays+='OFAura.dmi'
+					src.OMessage(10,"[src] unleashes their Olympian Fury!")
+				else
+					src.see_invisible=0
+					src.Strength/=2
+					src.StrengthMod/=2
+					src.Speed/=1.5
+					src.SpeedMod/=1.5
+					src.Defense/=1.2
+					src.DefenseMod/=1.2
+					src.BaseMod/=2
+					src.Base/=2
+					src.overlays-='OFAura.dmi'
+					src.OMessage(10,"[src] calms their fury down.")
+					Z.Using=0
+
 			if("DivineBlessing")
 				if(!Z.Using)
 					Z.Using=1
@@ -905,6 +1013,19 @@ mob/proc/SkillX(var/Wut,var/obj/Skills/Z,var/bypass=0)
 						Z.Skill_Increase(1.75)
 						src.SkillLeech(Z)
 					sleep(50)
+
+			if("AlmightyPush")
+				if(src.KO)return
+				if(src.Energy>EnergyMax/8)
+					for(var/mob/P in oview(src))
+						var/Damage=(src.Power*src.Force)/(P.Power*P.Resistance)*rand(sqrt(Z.Level)/10,sqrt(Z.Level)/5)*10
+						var/Knock_Distance=round((src.Power*src.Force)/(P.Power*P.Resistance)*rand(sqrt(Z.Level)/10,sqrt(Z.Level)/5)*2)
+						P.Health-=Damage
+						P.Knockback(Knock_Distance,src)
+						src.Energy-=src.EnergyMax/8
+						Z.Skill_Increase(100)
+						src.OMessage(10,null,"[src]([src.key]) pushes everyone away with the Deva Path!")
+					sleep(100)
 			if("Invisible")
 				if(!src.invisibility)
 					src.invisibility=1
@@ -1130,7 +1251,7 @@ mob/proc/SkillX(var/Wut,var/obj/Skills/Z,var/bypass=0)
 				spawn()step(x,SOUTH)
 				src.SkillLeech(Z)
 				Z.Skill_Increase()
-			if("SpiritGun")
+			if("Spirit Gun")
 				var/Drain=500/Z.Efficiency
 				if(src.Attacking) return
 				if(!src.CanBlast(Drain)) return

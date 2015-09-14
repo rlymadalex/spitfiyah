@@ -119,6 +119,11 @@ mob/Creation/verb
 		usr<<output(usr, "IconUpdate:1,[usr]")
 		spawn(3)usr:ToggleBlah("Name")
 		spawn(1)usr:IconSelect()
+	PreviousStep()
+		set hidden=1
+		set name="Prev_Step"
+		winshow(usr,"Finalize_Screen",0)
+		winshow(usr,"Race_Screen",1)
 	ToggleBlah(var/blah as text)
 		set name=".ToggleBlah"
 		set hidden=1
@@ -354,7 +359,9 @@ mob/proc/UpdateRaceScreen(var/wut,var/amountz)
 			if(Rac>3)
 				Rac=1
 			else if(Rac>2)
-				Rac=3
+				if(src.CheckUnlock("Half Saiyan")!=1)
+					Rac=1
+				else Rac=3
 			else if(Rac>1)
 				Rac=2
 			if(Rac==1)
@@ -389,6 +396,8 @@ mob/proc/UpdateRaceScreen(var/wut,var/amountz)
 				if(Rac>6)
 					Rac=1
 				if(Rac>5)
+					if(src.CheckUnlock("Half Demon")!=1)
+						Rac=1
 					Rac=6
 				//Rac=1
 			if(Rac<1)
@@ -860,7 +869,7 @@ mob/proc
 			src.Decline=30
 			src.Decline_Rate=1
 			src.SenseReq=1.5
-			src.ThirdEyeReq=pick(1;100,rand(100000,999999))
+			src.ThirdEyeReq=pick(1;100,rand(1000,300000))
 			src.PrimeAge=16
 			src.Potential=3
 		if(src.Race=="Spirit Doll")
@@ -1009,6 +1018,7 @@ mob/proc
 			src.Decline=40
 			src.Decline_Rate=1.5
 			src.Potential=1.5
+			src.OFReq=pick(1;100,rand(10000,600000))
 
 		if(src.Race=="Android")
 			if(src.Base<10)src.Base=rand(100,500)

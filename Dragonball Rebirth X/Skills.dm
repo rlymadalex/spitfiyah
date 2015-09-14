@@ -127,6 +127,19 @@ obj/Skills
 			verb/Sokidan()
 				set category="Skills"
 				usr.SkillX("Sokidan",src)
+		SpiritGun
+			Learn=list("energyreq"=3000,"difficulty"=9)
+			icon_state="Blast"
+			sicon='BlastSpiralingKi.dmi'
+			Power=1
+			Speed=1
+			Efficiency=1
+			Distance=10
+			desc="Fires a powerful blast of ki from the index finger of a hand clenched like a gun."
+			verb/SpiritGun()
+				set category="Skills"
+				usr.SkillX("Spirit Gun",src)
+
 		Kienzan
 			Learn=list("energyreq"=2500,"difficulty"=8)
 			icon_state="Kienzan"
@@ -324,6 +337,20 @@ obj/Skills/Buffs
 		verb/Third_Eye()
 			set category="Skills"
 			usr.SkillX("ThirdEye",src)
+	Sharingan
+		Level=100
+		Teachable=0
+		desc="The eyes of the Uchiha."
+		verb/Sharingan()
+			set category="Skills"
+			usr.SkillX("Sharingan",src)
+	Rinnegan
+		Level=100
+		Teachable=0
+		desc="Exalted eyes sent down from Heaven to cleanse the world."
+		verb/Rinnegan()
+			set category="Skills"
+			usr.SkillX("Rinnegan",src)
 	Focus
 		Learn=list("energyreq"=1000,"difficulty"=5)
 		desc="Allows you to focus."
@@ -355,6 +382,14 @@ obj/Skills/Buffs
 			set category="Skills"
 			set name="Demonic Will"
 			usr.SkillX("DemonicWill",src)
+	OlympianFury
+		Level=100
+		Teachable=0
+		desc="Demi-god racial trait."
+		verb/OlympianFury()
+			set category="Skills"
+			set name="Olympian Fury"
+			usr.SkillX("OlympianFury",src)
 	DivineBlessing
 		Level=100
 		Teachable=0
@@ -486,6 +521,25 @@ obj/Skills/Rank
 			set category="Skills"
 			usr.SkillX("Kiai",src)
 
+	AlmightyPush
+		desc="Blows away your enemies with the Deva Path"
+		icon_state="Push"
+		verb/Push()
+			set category="Skills"
+			usr.SkillX("AlmightyPush",src)
+	Ressurect
+		desc="Hold the keys of life and death with the Outer Path"
+		icon_state="Revive"
+		verb/Ressurect()
+			set category="Skills"
+			usr.SkillX("Ressurect",src)
+	Condemn
+		desc="Control the door of Hell with the Naraka Path"
+		icon_state="Condemn"
+		verb/Condemn()
+			set category="Skills"
+			usr.SkillX("Condemn",src)
+
 	PlanetDestruction
 		desc="Literally destroy the planet."
 		icon_state="PD"
@@ -499,6 +553,13 @@ obj/Skills/Rank
 		verb/Majinize()
 			set category="Skills"
 			usr.SkillX("Majinize",src)
+	CurseEyes
+		Level=100
+		desc="Allows you to give Sharingan to someone."
+		icon_state="CurseEyes"
+		verb/CurseEyes()
+			set category="Skills"
+			usr.SkillX("CurseEyes",src)
 	Mysticize
 		Level=100
 		desc="Allows you to Mysticize someone."

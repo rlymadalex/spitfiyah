@@ -1,10 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1442182414
+LAST_COMPILE_TIME: 1442208857
+DIR: Icons Icons\Aura Icons\Blasts 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 508.1299
-WINDOW: _Dragonballs.dm;Creation.dm;Customization.dm;Gains.dm;Packages.dm;StatPointSystems.dm;_Mate.dm;Guides.dm;Notes.dm;Skills.dm;Skills_.dm;Dragonball Rebirth.dme;_World.dm;Tech.dm;BattleSystem.dm;Items_.dm;Projectiles.dm;Stats.dm;_Variables.dm;Admin.dm;Chat&Verbs.dm;Map.dm;Move.dm;NPC.dm
-FILE: Projectiles.dm
+WINDOW: _-SkillSystems.dm;Admin.dm;Guides.dm;Skills_.dm;Items_.dm;Map.dm;Misc.dm;Packages.dm;Skills.dm;Creation.dm;_Variables.dm;_World.dm;BattleSystem.dm;Customization.dm;_Mate.dm;Projectiles.dm;Gains.dm;Notes.dm;StatPointSystems.dm;_Trans.dm;VotingSystem.dm;BeastTransforms.dm;Move.dm;Tech.dm;_Extra.dm;_ShockWave.dm;Chat&Verbs.dm
+FILE: Skills_.dm
 */
 // END_INTERNALS
