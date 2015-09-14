@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1442208857
+LAST_COMPILE_TIME: 1442229210
 DIR: Icons Icons\Aura Icons\Blasts 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 508.1299
-WINDOW: _-SkillSystems.dm;Admin.dm;Guides.dm;Skills_.dm;Items_.dm;Map.dm;Misc.dm;Packages.dm;Skills.dm;Creation.dm;_Variables.dm;_World.dm;BattleSystem.dm;Customization.dm;_Mate.dm;Projectiles.dm;Gains.dm;Notes.dm;StatPointSystems.dm;_Trans.dm;VotingSystem.dm;BeastTransforms.dm;Move.dm;Tech.dm;_Extra.dm;_ShockWave.dm;Chat&Verbs.dm
-FILE: Skills_.dm
+WINDOW: Skills_.dm;Map.dm;Skills.dm;Stats.dm;_World.dm;BattleSystem.dm;Gains.dm;Items_.dm;StatPointSystems.dm
+FILE: Stats.dm
 */
 // END_INTERNALS
